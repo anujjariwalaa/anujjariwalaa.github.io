@@ -8,7 +8,7 @@ test("renders app name link", () => {
       <App />
     </BrowserRouter>
   );
-  const linkElement = screen.findByText("myApp");
+  const linkElement = screen.findByText("Personal_Website");
   expect(linkElement).toBeDefined();
 });
 
