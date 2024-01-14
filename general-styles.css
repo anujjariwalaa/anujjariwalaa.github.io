@@ -18,9 +18,10 @@ a {
   background-color: beige;
   border-radius: 20px;
   padding: 10px;
-  margin: 10px 0px 10px 10px;
+  margin: 10px;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 .header-bar-links {
   margin-left: auto;
@@ -70,35 +71,3 @@ a {
   margin: 0px auto;
   text-align: center;
 }
-
-
-/* 
-
-.header-bar {
-  color: #fffff2;
-  padding: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  display: flex;
-}
-
-.header-bar-logo {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
-
-.header-bar-title {
-  padding-right: 10px;
-  margin-right: 10px;
-  margin-top: -10px;
-}
-
-.header-bar-links {
-  margin-left: auto;
-  margin-right: 10px;
-  margin-top: -10px;
-  display: flex;
-}
-
-*/
