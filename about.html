@@ -15,7 +15,8 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
 		<link rel="manifest" href="files/manifest.json" />
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="about-styles.css" />
+		<link rel="stylesheet" href="general-styles.css" />
 
 		<!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -34,28 +35,37 @@
 				<img src="files/logo.png" alt="logo" />
 			</div>
 			<div id="header-text" class="header-bar-title">
-				<h1>Anuj Jariwala</h1>
+				<a href="/index.html">
+					<h1>Anuj Jariwala</h1>
+				</a>
 			</div>
 			<div id="header-links" class="header-bar-links">
 				<ul class="header-list">
-					<li><a href="/about.html">About</a></li>
-					<li><a href="/projects.html">Projects</a></li>
+					<li><a href="/about.html"><h3>About</h3></a></li>
+					<li><a href="/projects.html"><h3>Projects</h3></a></li>
 				</ul>
 			</div>
 		</div>
+
+
+
+        <!-- below is the code for the about page -->
+
+
 		<div id="main" class="main-content">
 			<div id="main-text" class="main-content-text">
-                <p>
-                    Hi, I'm Anuj. I'm a 3rd year Computer Science student at the University
-                    of Waterloo. I'm interested in full-stack development, machine
-                    learning, and data science. I'm currently looking for a Winter 2022
-                    co-op position.
-                </p>
+				<p>
+					Hi, I'm Anuj. I'm a 3rd year Computer Science student at the
+					University of Waterloo. I'm interested in full-stack
+					development, machine learning, and data science. I'm
+					currently looking for a Winter 2022 co-op position.
+				</p>
 			</div>
 			<div id="main-image" class="main-content-image">
 				<img src="files/Anuj.png" alt="Anuj" />
 			</div>
 		</div>
+
 		<!-- <noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div> -->
 
@@ -69,6 +79,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+		<div id="horizontal-line-one"></div>
 		<div id="footer" class="footer">
 			<div id="footer-links" class="footer-links">
 				<a href="https://www.linkedin.com/in/anuj-jariwala-96b612218/"

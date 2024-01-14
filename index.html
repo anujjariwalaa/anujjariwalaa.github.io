@@ -15,7 +15,8 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
 		<link rel="manifest" href="files/manifest.json" />
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="index-styles.css" />
+		<link rel="stylesheet" href="general-styles.css" />
 
 		<!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -34,15 +35,22 @@
 				<img src="files/logo.png" alt="logo" />
 			</div>
 			<div id="header-text" class="header-bar-title">
-				<h1>Anuj Jariwala</h1>
+				<a href="/index.html">
+					<h1>Anuj Jariwala</h1>
+				</a>
 			</div>
 			<div id="header-links" class="header-bar-links">
 				<ul class="header-list">
-					<li><a href="/about.html">About</a></li>
-					<li><a href="/projects.html">Projects</a></li>
+					<li>
+						<a href="/about.html"><h3>About</h3></a>
+					</li>
+					<li>
+						<a href="/projects.html"><h3>Projects</h3></a>
+					</li>
 				</ul>
 			</div>
 		</div>
+
 		<div id="main" class="main-content">
 			<div id="main-text" class="main-content-text">
 				<div id="Education" class="main-content-text-education">
@@ -59,7 +67,7 @@
 					<div id="job1" class="jobs">
 						<h2>Software Developer Intern</h2>
 						<h3>May 2021 - July 2021</h3>
-						<span class="job-locations">San Francisco, CA</span>
+						<div class="job-locations">San Francisco, CA</div>
 						<p>
 							I worked as a Software Developer Intern at
 							<a href="https://www.iiitvadodara.ac.in/"
@@ -70,7 +78,7 @@
 					<div id="job2" class="jobs">
 						<h2>Software Developer Intern</h2>
 						<h3>May 2021 - July 2021</h3>
-						<span class="job-locations">Tucson, AZ</span>
+						<div class="job-locations">Tucson, AZ</div>
 						<p>
 							I worked as a Software Developer Intern at
 							<a href="https://www.iiitvadodara.ac.in/"
@@ -81,7 +89,7 @@
 				</div>
 			</div>
 			<div id="main-image" class="main-content-image">
-				<img src="files/Anuj.png" alt="Anuj" />
+				<img src="files/anuj.jpg" alt="Anuj" width="200px" />
 			</div>
 		</div>
 		<!-- <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -97,6 +105,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+		<div id="horizontal-line-one"></div>
 		<div id="footer" class="footer">
 			<div id="footer-links" class="footer-links">
 				<a href="https://www.linkedin.com/in/anuj-jariwala-96b612218/"
