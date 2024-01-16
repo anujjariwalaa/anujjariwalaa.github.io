@@ -21,7 +21,6 @@ a {
   margin: 10px;
   display: flex;
   align-items: center;
-  width: 100%;
 }
 .header-bar-links {
   margin-left: auto;
@@ -42,7 +41,7 @@ a {
   align-items: center;
 }
 .header-list li {
-  margin-right: 10px;
+  margin-left: 20px;
 }
 
 #horizontal-line-one {
