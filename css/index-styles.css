@@ -4,7 +4,7 @@
   padding: 0px 20px;
   display: flex;
   align-items: center;
-  max-width: 800px; 
+  max-width: 1000px; 
   width: 100%; 
 }
 
@@ -15,5 +15,34 @@
 
 .main-content-image {
   max-width: 200px;
+  margin-left: 100px;
 }
 
+.position-date-class {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.position-date-class h2 {
+  margin-right: 10px;
+}
+
+.position-date-class h4 {
+  margin-left: auto;
+  font-style: italic;
+}
+
+#Experience h1{
+  text-align: center;
+}
+
+#Education h1{
+  text-align: center;
+}
+
+.job-locations {
+  opacity: 0.5;
+  font-style: italic;
+  margin-bottom: -15px;
+}

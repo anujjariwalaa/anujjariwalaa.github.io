@@ -31,20 +31,34 @@
 	</head>
 	<body>
 		<div id="header" class="header-bar">
-			<div id="logo" class="header-bar-logo">
-				<img src="images/logo.png" alt="logo" />
-			</div>
 			<div id="header-text" class="header-bar-title">
 				<a href="/index.html">
-					<h1>Anuj Jariwala</h1>
+					<h1>AJ</h1>
 				</a>
 			</div>
 			<div id="header-links" class="header-bar-links">
 				<ul class="header-list">
-					<li><a href="/about.html"><h3>About</h3></a></li>
-					<li><a href="/projects.html"><h3>Projects</h3></a></li>
+					<li>
+						<a href="/about.html"><h3>About</h3></a>
+					</li>
+					<li>
+						<a href="/projects.html"><h3>Projects</h3></a>
+					</li>
+					<li>
+						<img
+							src="images/sun.svg"
+							alt="dark"
+							id="toggleDark"
+							class="invert-color-dark"
+							width="25px"
+							height="auto"
+						/>
+					</li>
 				</ul>
 			</div>
+		</div>
+		<div id="name" class="name">
+			<h1>Anuj D. Jariwala</h1>
 		</div>
 
 
@@ -53,21 +67,21 @@
 			<div id="main-text" class="main-content-text">
                <div id="Projects" class="main-content-text-projects">
                     <h1>Projects</h1>
+					<div id="horizontal-line-five"></div>
                     <div id="project1" class="projects">
+						<div class="project-name-and-date">
                         <h2>Project 1</h2>
-                        <span class="project-date">2021</span>
-                        <span class="project-tech">React, Node.js, Express.js, MongoDB</span>
-                        <p>
+                        <div class="project-date">2021</div>
+						</div>
+                        <div class="project-tech">React, Node.js, Express.js, MongoDB</div>
+                        <div class="project-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
                             voluptatum, quibusdam, quia, quae voluptates voluptatem
                             voluptatibus quod quos doloribus quas voluptate. Quisquam
                             voluptatum, quibusdam, quia, quae voluptates voluptatem
                             voluptatibus quod quos doloribus quas voluptate.
-                        </p>
+                        </div>
                </div>
-			</div>
-			<div id="main-image" class="main-content-image">
-				<img src="images/Anuj.png" alt="Anuj" />
 			</div>
 		</div>
 		<!-- <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -90,7 +104,7 @@
 					><img
 						src="images/linkedin.png"
 						alt="linkedin"
-						class="invert-color"
+						class="invert-color-light"
 						width="50px"
 						height="auto"
 				/></a>
@@ -98,7 +112,7 @@
 					<img
 						src="images/github.png"
 						alt="github"
-						class="invert-color"
+						class="invert-color-light"
 						width="50px"
 						height="auto"
 				/></a>
@@ -106,7 +120,7 @@
 					<img
 						src="images/email.png"
 						alt="email"
-						class="invert-color"
+						class="invert-color-light"
 						width="60px"
 						height="auto"
 				/></a>
@@ -114,7 +128,7 @@
 					><img
 						src="images/twitter.png"
 						alt="twitter"
-						class="invert-color"
+						class="invert-color-light"
 						width="45px"
 						height="auto"
 				/></a>
@@ -123,5 +137,6 @@
 				<p>Made with ❤️ by Anuj Jariwala</p>
 			</div>
 		</div>
+		<script src = "js/general-script.js"></script>
 	</body>
 </html>

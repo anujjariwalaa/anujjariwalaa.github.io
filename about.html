@@ -17,6 +17,7 @@
 		<link rel="manifest" href="images/manifest.json" />
 		<link rel="stylesheet" href="css/about-styles.css" />
 		<link rel="stylesheet" href="css/general-styles.css" />
+		
 
 		<!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -31,35 +32,88 @@
 	</head>
 	<body>
 		<div id="header" class="header-bar">
-			<div id="logo" class="header-bar-logo">
-				<img src="images/logo.png" alt="logo" />
-			</div>
 			<div id="header-text" class="header-bar-title">
 				<a href="/index.html">
-					<h1>Anuj Jariwala</h1>
+					<h1>AJ</h1>
 				</a>
 			</div>
 			<div id="header-links" class="header-bar-links">
 				<ul class="header-list">
-					<li><a href="/about.html"><h3>About</h3></a></li>
-					<li><a href="/projects.html"><h3>Projects</h3></a></li>
+					<li>
+						<a href="/about.html"><h3>About</h3></a>
+					</li>
+					<li>
+						<a href="/projects.html"><h3>Projects</h3></a>
+					</li>
+					<li>
+						<img
+							src="images/sun.svg"
+							alt="dark"
+							id="toggleDark"
+							class="invert-color-dark"
+							width="25px"
+							height="auto"
+						/>
+					</li>
 				</ul>
 			</div>
 		</div>
+		<div id="name" class="name">
+			<h1>Anuj D. Jariwala</h1>
+		</div>
 
-
-
-        <!-- below is the code for the about page -->
-
+		<!-- below is the code for the about page -->
 
 		<div id="main" class="main-content">
 			<div id="main-text" class="main-content-text">
-				<p>
-					Hi, I'm Anuj. I'm a 3rd year Computer Science student at the
-					University of Waterloo. I'm interested in full-stack
-					development, machine learning, and data science. I'm
-					currently looking for a Winter 2022 co-op position.
-				</p>
+				<div id="personal">
+					Hi, I'm Anuj. I'm a 3rd year Computer Science and Statistics
+					and Data Science student at the University of Arizona. I'm
+					interested in full-stack development, machine learning, and
+					data science.I also have a keen interest in field of quant
+					and finance.
+				</div>
+				<div id="academic">
+					At University of Arizona, I am a part of the Data Science
+					Club and the Investment Club. I am also a part of the Eller
+					College of Management. I am doing my minor in Economics,
+					Mathematics and Software Engineering.
+				</div>
+				<!-- <div id="hobbies">
+					Outside of academics, I enjoy playing Badminton, Watching Stock Market, 
+					and playing video games. I also enjoy reading
+					books, watching movies, and listening to music.
+				</div>
+				<div id="books">
+					Following are some of my favorite books:
+					<ul>
+						<li>
+							<a href="https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows">
+								The Inteligen Investor
+							</a>
+						</li>
+						<li>
+							<a href="https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows">
+								Atomic Habits
+							</a>
+						</li>
+						<li>
+							<a href="https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows">
+								How to Win Friends and Influence People
+							</a>
+						</li>
+						<li>
+							<a href="https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows">
+								48 Laws of Power
+							</a>
+						</li>
+						<li>
+							<a href="https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows">
+								
+							</a>
+						</li>
+					</ul>
+				</div> -->
 			</div>
 			<div id="main-image" class="main-content-image">
 				<img src="images/Anuj.png" alt="Anuj" />
@@ -86,7 +140,7 @@
 					><img
 						src="images/linkedin.png"
 						alt="linkedin"
-						class="invert-color"
+						class="invert-color-light"
 						width="50px"
 						height="auto"
 				/></a>
@@ -94,7 +148,7 @@
 					<img
 						src="images/github.png"
 						alt="github"
-						class="invert-color"
+						class="invert-color-light"
 						width="50px"
 						height="auto"
 				/></a>
@@ -102,7 +156,7 @@
 					<img
 						src="images/email.png"
 						alt="email"
-						class="invert-color"
+						class="invert-color-light"
 						width="60px"
 						height="auto"
 				/></a>
@@ -110,7 +164,7 @@
 					><img
 						src="images/twitter.png"
 						alt="twitter"
-						class="invert-color"
+						class="invert-color-light"
 						width="45px"
 						height="auto"
 				/></a>
@@ -119,5 +173,6 @@
 				<p>Made with ❤️ by Anuj Jariwala</p>
 			</div>
 		</div>
+	<script src = "js/general-script.js"></script>
 	</body>
 </html>

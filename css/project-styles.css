@@ -1,0 +1,28 @@
+/** @format */
+
+.main-content-text {
+	max-width: 800px;
+	margin: 10px auto;
+}
+
+.main-content-text h1 {
+    text-align: center;
+}
+
+.project-name-and-date {
+	display: flex;
+	margin-bottom: -20px;
+	max-width: 800px;
+	align-items: center;
+}
+
+.project-date {
+	margin-left: auto;
+	font-style: italic;
+}
+
+.project-tech {
+	font-style: italic;
+    opacity: 0.5;
+}
+

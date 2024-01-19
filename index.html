@@ -17,6 +17,11 @@
 		<link rel="manifest" href="images/manifest.json" />
 		<link rel="stylesheet" href="css/index-styles.css" />
 		<link rel="stylesheet" href="css/general-styles.css" />
+		<script src="js/general-script.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
 
 		<!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -31,12 +36,9 @@
 	</head>
 	<body>
 		<div id="header" class="header-bar">
-			<div id="logo" class="header-bar-logo">
-				<img src="images/logo.png" alt="logo" />
-			</div>
 			<div id="header-text" class="header-bar-title">
 				<a href="/index.html">
-					<h1>Anuj Jariwala</h1>
+					<h1>AJ</h1>
 				</a>
 			</div>
 			<div id="header-links" class="header-bar-links">
@@ -47,14 +49,28 @@
 					<li>
 						<a href="/projects.html"><h3>Projects</h3></a>
 					</li>
+					<li>
+						<img
+							src="images/sun.svg"
+							alt="dark"
+							id="toggleDark"
+							class="invert-color-dark"
+							width="25px"
+							height="auto"
+						/>
+					</li>
 				</ul>
 			</div>
+		</div>
+		<div id="name" class="name">
+			<h1>Anuj D. Jariwala</h1>
 		</div>
 
 		<div id="main" class="main-content">
 			<div id="main-text" class="main-content-text">
 				<div id="Education" class="main-content-text-education">
 					<h1>Education</h1>
+					<div id="horizontal-line-three"></div>
 					<p>
 						I am currently pursuing my Bachelors in Computer Science
 						from
@@ -64,9 +80,15 @@
 				</div>
 				<div id="Experience" class="main-content-text-experience">
 					<h1>Experience</h1>
+					<div id="horizontal-line-two"></div>
 					<div id="job1" class="jobs">
-						<h2>Software Developer Intern</h2>
-						<h3>May 2021 - July 2021</h3>
+						<div
+							id="position-date-job-2"
+							class="position-date-class"
+						>
+							<h2>Software Developer Intern</h2>
+							<h4>May 2021 - July 2021</h4>
+						</div>
 						<div class="job-locations">San Francisco, CA</div>
 						<p>
 							I worked as a Software Developer Intern at
@@ -76,8 +98,13 @@
 						</p>
 					</div>
 					<div id="job2" class="jobs">
-						<h2>Software Developer Intern</h2>
-						<h3>May 2021 - July 2021</h3>
+						<div
+							id="position-date-job-2"
+							class="position-date-class"
+						>
+							<h2>Software Developer Intern</h2>
+							<h4>May 2021 - July 2021</h4>
+						</div>
 						<div class="job-locations">Tucson, AZ</div>
 						<p>
 							I worked as a Software Developer Intern at
@@ -112,7 +139,7 @@
 					><img
 						src="images/linkedin.png"
 						alt="linkedin"
-						class="invert-color"
+						class="invert-color-light"
 						width="50px"
 						height="auto"
 				/></a>
@@ -120,7 +147,7 @@
 					<img
 						src="images/github.png"
 						alt="github"
-						class="invert-color"
+						class="invert-color-light"
 						width="50px"
 						height="auto"
 				/></a>
@@ -128,7 +155,7 @@
 					<img
 						src="images/email.png"
 						alt="email"
-						class="invert-color"
+						class="invert-color-light"
 						width="60px"
 						height="auto"
 				/></a>
@@ -136,7 +163,7 @@
 					><img
 						src="images/twitter.png"
 						alt="twitter"
-						class="invert-color"
+						class="invert-color-light"
 						width="45px"
 						height="auto"
 				/></a>
@@ -145,5 +172,6 @@
 				<p>Made with ❤️ by Anuj Jariwala</p>
 			</div>
 		</div>
+		<script src = "js/general-script.js"></script>
 	</body>
 </html>
