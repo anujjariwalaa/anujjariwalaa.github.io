@@ -1,18 +1,23 @@
 /** @format */
 
 .main-content-text {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 10px auto;
+	padding: 0px 10px;
+	
 }
 
 .main-content-text h1 {
     text-align: center;
 }
 
+.projects {
+	margin: 20px auto;
+}
 .project-name-and-date {
 	display: flex;
 	margin-bottom: -20px;
-	max-width: 800px;
+	max-width: 1200px;
 	align-items: center;
 }
 
@@ -26,3 +31,8 @@
     opacity: 0.5;
 }
 
+#seperator-vertical {
+	margin: 0px 20px;
+	font-size: large;
+	font-weight: bold;
+}

@@ -4,33 +4,34 @@
   padding: 0px 20px;
   display: flex;
   align-items: center;
-  max-width: 1000px; 
-  width: 100%; 
+  max-width: 1200px;
 }
 
 
 .main-content-text {
-  max-width: 500px;
+  width: 900px;
+  max-width: 1000px;
 }
 
 .main-content-image {
-  max-width: 200px;
-  margin-left: 100px;
+  max-width: 100px;
+  margin-left: 50px;
 }
 
-.position-date-class {
+.company-date-class {
   display: flex;
   align-items: center;
   margin-bottom: -20px;
 }
 
-.position-date-class h2 {
+.company-date-class h3 {
   margin-right: 10px;
 }
 
-.position-date-class h4 {
+.company-date-class h4 {
   margin-left: auto;
   font-style: italic;
+  padding: auto;
 }
 
 #Experience h1{
@@ -44,5 +45,77 @@
 .job-locations {
   opacity: 0.5;
   font-style: italic;
-  margin-bottom: -15px;
+  /* margin-bottom: -15px; */
+  padding: auto;
+  margin-left: auto;
+}
+
+.job-locations-position {
+  display: flex;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+
+.education-logo{
+  margin-left: 10px;
+  margin-bottom: -3px;
+}
+
+#education-description-major-gpa {
+  display: flex;
+  align-items: center;
+  padding: auto;
+  margin-bottom: -20px;
+}
+
+#university-gpa{
+  margin-left: auto;
+  font-style: italic;
+  padding: auto;
+}
+
+#major-education, #minor-education {
+  max-width: 500px;
+  font-style: italic;
+  padding: auto;
+  margin: -15px 0px;
+}
+
+
+.edu-locations {
+  opacity: 0.5;
+  font-style: italic;
+  padding: auto;
+}
+
+.seperate-education {
+  margin: 0px 10px;
+	font-size: large;
+	font-weight: bold;
+}
+
+.education-company-date {
+  display: flex;
+  align-items: center;
+  margin-bottom: -40px;
+}
+
+.education-company-date h4 {
+  margin-left: auto;
+  font-style: italic;
+  padding: auto;
+}
+
+.job-position {
+  font-style: italic;
+
+}
+
+.job-logo{
+  margin-left: 10px;
+}
+
+#job1-logo{
+  margin-bottom: -7px;
 }

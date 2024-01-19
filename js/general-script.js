@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Function to update the icon and image classes
 	function updateTheme() {
-		icon.transition = "all 1s";
 		if (document.body.classList.contains("light-theme")) {
 			icon.src = "images/moon.svg";
 			icon.classList.replace("invert-color-dark", "invert-color-light");
