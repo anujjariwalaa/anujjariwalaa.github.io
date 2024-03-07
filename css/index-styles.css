@@ -4,17 +4,18 @@
   padding: 0px 20px;
   display: flex;
   align-items: center;
-  max-width: 1200px;
+  max-width: 80%;
+  justify-content: space-around;
 }
 
 
 .main-content-text {
-  width: 900px;
-  max-width: 1000px;
+  width: 70%;
+  max-width: 70%;
 }
 
 .main-content-image {
-  max-width: 100px;
+  max-width: 30%;
   margin-left: 50px;
 }
 
@@ -22,6 +23,8 @@
   display: flex;
   align-items: center;
   margin-bottom: -20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .company-date-class h3 {
@@ -45,7 +48,6 @@
 .job-locations {
   opacity: 0.5;
   font-style: italic;
-  /* margin-bottom: -15px; */
   padding: auto;
   margin-left: auto;
 }
@@ -53,7 +55,7 @@
 .job-locations-position {
   display: flex;
   align-items: center;
-  margin-bottom: -10px;
+  margin-bottom: -1%;
 }
 
 
@@ -67,6 +69,7 @@
   align-items: center;
   padding: auto;
   margin-bottom: -20px;
+  justify-content: space-around;
 }
 
 #university-gpa{
@@ -99,6 +102,7 @@
   display: flex;
   align-items: center;
   margin-bottom: -40px;
+  justify-content: space-around;
 }
 
 .education-company-date h4 {
@@ -118,4 +122,16 @@
 
 #job1-logo{
   margin-bottom: -7px;
+}
+
+@media screen and (max-width: 600px) {
+    .div-element {
+        margin-bottom: 5px; /* Smaller bottom margin for smaller screens */
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .div-element {
+        margin-bottom: 10px; /* Larger bottom margin for larger screens */
+    }
 }
